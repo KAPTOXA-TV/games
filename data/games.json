@@ -1,0 +1,26 @@
+[
+	{"title": "Demon's Souls Remake", "url": "https://www.playstation.com/ru-ru/games/demons-souls/","platform": "ps5", "state": "completed", "dateEnd":  "06.12.2021", "rating":  5},
+	{"title": "Dark Souls Remastered", "url": "https://www.playstation.com/ru-ru/games/dark-souls-remastered/", "platform": "ps5", "state": "completed", "dateEnd":  "28.12.2021", "rating":  5},
+	{"title": "Factorio", "url": "https://store.steampowered.com/app/427520/Factorio/", "platform": "pc", "state": "completed", "dateEnd":  "2021", "rating":  5, "mods":  [
+		{"title": "Frontier Extended", "url": "https://mods.factorio.com/mod/Frontier-Extended", "state": "in-progress", "rating":  5}
+	]},
+	{"title": "Disco Elysium", "url": "https://www.playstation.com/ru-ru/games/disco-elysium/", "platform": "ps5", "state": "completed", "dateEnd":  "28.12.2021", "rating":  5},
+	{"title": "Resident Evil Village", "url": "https://www.playstation.com/ru-ru/games/resident-evil-village/", "platform": "ps5", "state": "completed", "dateEnd":  "2021", "rating":  5},
+
+	{"title": "Ghost of Tsushima", "url": "https://www.playstation.com/ru-ru/games/ghost-of-tsushima/", "platform": "ps5", "state": "in-progress"},
+
+
+
+	{"title": "Elden Ring", "url": "https://www.playstation.com/ru-ru/games/elden-ring/", "platform": "ps5", "state": "none", "announced":  true},
+	{"title": "Oxygen Not Included", "url": "https://store.steampowered.com/app/457140/Oxygen_Not_Included/", "platform": "pc", "state": "none", "rating":  5},
+	{"title": "Yakuza: Like a Dragon Legendary Hero Edition", "url": "https://www.playstation.com/ru-ru/games/yakuza-like-a-dragon/", "platform": "ps5", "state": "none"},
+	{"title": "Dark Souls™ II", "url": "https://www.playstation.com/ru-ru/games/dark-souls-ii-scholar-of-the-first-sin/", "platform": "ps5", "state": "none"},
+	{"title": "Dark Souls™ III", "url": "https://www.playstation.com/ru-ru/games/dark-souls-iii/", "platform": "ps5", "state": "none"},
+	{"title": "The Elder Scrolls V: Skyrim Special Edition", "url": "https://store.playstation.com/ru-ru/product/EP1003-PPSA03747_00-TESVSKYRIM000000", "platform": "ps5", "state": "none"},
+	{"title": "The Riftbreaker", "url": "https://store.steampowered.com/app/780310/The_Riftbreaker/", "platform": "pc", "state": "none"},
+	{"title": "RimWorld", "url": "https://store.steampowered.com/app/294100/RimWorld/", "platform": "pc", "state": "none", "rating":  5},
+	{"title": "Satisfactory", "url": "https://store.steampowered.com/app/526870/Satisfactory/", "platform": "pc", "state": "none"},
+	{"title": "Valheim", "url": "https://store.steampowered.com/app/892970/Valheim/", "platform": "pc", "state": "none"},
+	{"title": "Frostpunk", "url": "https://store.steampowered.com/app/323190/Frostpunk/", "platform": "pc", "state": "none"},
+	{"title": "Tiny Bunny", "url": "https://store.steampowered.com/app/1421250/Tiny_Bunny/", "platform": "pc", "state": "none"}
+]

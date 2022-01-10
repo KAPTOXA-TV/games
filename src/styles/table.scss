@@ -1,0 +1,145 @@
+.table {
+
+}
+.table_header {
+	display: flex;
+	flex-direction: row;
+	height: 30px;
+	padding: 10px;
+	align-items: center;
+	justify-content: center;
+	margin-bottom: 10px;
+	box-sizing: border-box;
+	.table_column {
+		color: #fff;
+		font-size: 120%;
+	}
+}
+.table_row {
+	display: flex;
+	flex-direction: column;
+	min-height: 30px;
+	background-color: rgba(0, 0, 0, 0.2);
+	border-radius: 10px;
+	align-items: flex-start;
+	justify-content: flex-start;
+	margin-bottom: 10px;
+	&.completed {
+		.table_column {
+			&.state {
+				color: #818181
+			}
+		}
+	}
+	&.in-progress {
+		.table_column {
+			&.state {
+				color: #c8ff00
+			}
+		}
+	}
+	.table_column {
+		color: #fff;
+		font-size: 120%;
+		&.platform {
+			text-transform: uppercase;
+		}
+	}
+}
+.table_row_content {
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+	padding: 10px;
+	box-sizing: border-box;
+}
+.table_column {
+	flex: 1;
+	flex-shrink: 0;
+	padding: 5px;
+	box-sizing: border-box;
+	&.title {
+		flex: 2;
+	}
+	a {
+		color: #fff;
+		text-decoration: none;
+	}
+}
+.table_row_mods {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	justify-content: flex-start;
+	width: 100%;
+	padding: 10px;
+	box-sizing: border-box;
+	background-color: rgba(0, 0, 0, 0.5);
+	border-bottom-left-radius: 0.5rem;
+	border-bottom-right-radius: 0.5rem;
+	.mods_title {
+		color: rgba(255, 255, 255, 0.8);
+		font-size: 80%;
+		text-transform: uppercase;
+		text-align: left;
+		margin-bottom: 10px;
+		padding-left: 4px;
+	}
+	.mods {
+		flex-direction: column;
+		align-items: center;
+		width: 100%;
+	}
+}
+.mod_row {
+	display: flex;
+	flex-direction: row;
+	min-height: 30px;
+	align-items: center;
+	justify-content: center;
+	margin-bottom: 10px;
+	&.completed {
+		.table_column {
+			&.state {
+				color: #818181
+			}
+		}
+	}
+	&.in-progress {
+		.table_column {
+			&.state {
+				color: #c8ff00
+			}
+		}
+	}
+	.table_column {
+		color: #fff;
+		font-size: 120%;
+		&.platform {
+			text-transform: uppercase;
+		}
+	}
+}
+
+.rating_block {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: flex-start;
+}
+.rating_item {
+	width: 15px;
+	height: 15px;
+	background-image: url(../../images/heart.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: contain;
+	flex-shrink: 0;
+	flex-grow: 0;
+	margin: 2px;
+	&:not(.active) {
+		opacity: 0.3;
+	}
+}
